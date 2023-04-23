@@ -56,109 +56,131 @@ header .banner .texto-banner button a {
   font-size: 16px;
 }
 
-main {
+.main-index {
   background-color: white;
 }
-main .servicios {
+.main-index .servicios {
   padding: 50px 100px;
   color: #15494B;
   font-family: "Carlito", sans-serif;
 }
-main .servicios div {
+.main-index .servicios div {
   text-align: center;
 }
-main .servicios div h1 {
+.main-index .servicios div h1 {
   font-weight: 700;
 }
-main .servicios div p {
+.main-index .servicios div p {
   font-weight: 400;
   font-size: 16px;
 }
-main .servicios .tarjetas {
+.main-index .servicios .tarjetas {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
 }
-main .servicios .tarjetas .tarjeta {
+.main-index .servicios .tarjetas .tarjeta {
   align-items: center;
   border: none;
 }
-main .servicios .tarjetas .tarjeta img {
+.main-index .servicios .tarjetas .tarjeta img {
   width: 75px;
   height: 90px;
 }
-main .servicios .tarjetas .tarjeta h5 {
+.main-index .servicios .tarjetas .tarjeta h5 {
   color: #15494B;
   font-family: "Carlito", sans-serif;
   font-weight: 700;
   font-size: 32px;
 }
-main .clientes {
+.main-index .clientes {
   padding: 20px 100px;
   color: #15494B;
   font-family: "Carlito", sans-serif;
 }
-main .clientes div {
+.main-index .clientes div {
   text-align: center;
 }
-main .clientes div h1 {
+.main-index .clientes div h1 {
   font-weight: 700;
 }
-main .clientes div p {
+.main-index .clientes div p {
   font-weight: 400;
   font-size: 16px;
 }
-main .clientes h4 {
+.main-index .clientes h4 {
   font-family: "Carlito", sans-serif;
   font-weight: 700;
   font-size: 36px;
   padding: 20px;
   text-align: left;
 }
-main .clientes p {
+.main-index .clientes p {
   padding: 20px;
 }
-main .clientes .primero {
+.main-index .clientes .primero {
   background-color: #012626;
 }
-main .clientes .primero h4 {
+.main-index .clientes .primero h4 {
   color: whitesmoke;
 }
-main .clientes .primero p {
+.main-index .clientes .primero p {
   color: whitesmoke;
   text-align: left;
 }
-main .clientes .segundo {
+.main-index .clientes .segundo {
   background-color: #15494B;
 }
-main .clientes .segundo h4 {
+.main-index .clientes .segundo h4 {
   color: whitesmoke;
 }
-main .clientes .segundo p {
+.main-index .clientes .segundo p {
   color: whitesmoke;
   text-align: left;
 }
-main .clientes .tercero {
+.main-index .clientes .tercero {
   background-color: #35958A;
 }
-main .clientes .tercero h4 {
+.main-index .clientes .tercero h4 {
   color: whitesmoke;
 }
-main .clientes .tercero p {
+.main-index .clientes .tercero p {
   color: whitesmoke;
   text-align: left;
 }
-main .clientes .cuarto {
+.main-index .clientes .cuarto {
   background-color: #48D9BE;
 }
-main .clientes .cuarto h4 {
+.main-index .clientes .cuarto h4 {
   color: whitesmoke;
 }
-main .clientes .cuarto p {
+.main-index .clientes .cuarto p {
   color: whitesmoke;
   text-align: left;
 }
 
+footer .contacto {
+  padding-top: 50px;
+  background-color: #C5C4CB;
+  display: block;
+  text-align: center;
+  color: #35958A;
+}
+footer .contacto h2 {
+  font-size: 32;
+  font-weight: 700;
+  color: #012626;
+}
+footer .contacto button {
+  border: none !important;
+  background-color: #48D9BE !important;
+}
+footer .contacto button a {
+  color: #15494B !important;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
 footer div {
   background-color: #161526;
   padding: 20px;
@@ -190,7 +212,165 @@ footer div .item-redes {
   padding: 10px;
 }
 footer div .titulo-lista {
+  font-size: 32px;
+}
+
+#baner-nosotros {
+  background-image: url("/assets/img/banner-nosotros.png");
+  text-align: end;
+  padding-top: 40px;
+}
+#baner-nosotros .texto-banner {
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 0px;
+  width: 800px;
+}
+#baner-nosotros .texto-banner h1 {
+  font-weight: 400;
   font-size: 21px;
+}
+#baner-nosotros .texto-banner li {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.main-nosotros {
+  background-color: white;
+}
+.main-nosotros .objetivo {
+  padding: 20px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+.main-nosotros .objetivo div {
+  text-align: center;
+}
+.main-nosotros .objetivo div h1 {
+  font-weight: 700;
+}
+.main-nosotros .objetivo div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-nosotros .objetivo h4 {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px;
+  text-align: left;
+}
+.main-nosotros .objetivo p {
+  padding: 20px;
+}
+.main-nosotros .objetivo .primero {
+  background-color: #012626;
+}
+.main-nosotros .objetivo .primero h4 {
+  color: whitesmoke;
+}
+.main-nosotros .objetivo .primero ul {
+  padding: 20px;
+}
+.main-nosotros .objetivo .primero li {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-nosotros .objetivo .segundo {
+  background-color: #15494B;
+}
+.main-nosotros .objetivo .segundo h4 {
+  color: whitesmoke;
+}
+.main-nosotros .objetivo .segundo p {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-nosotros .objetivo .tercero {
+  background-color: #35958A;
+}
+.main-nosotros .objetivo .tercero h4 {
+  color: whitesmoke;
+}
+.main-nosotros .objetivo .tercero p {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-nosotros .objetivo .cuarto {
+  background-color: #48D9BE;
+}
+.main-nosotros .objetivo .cuarto h4 {
+  color: whitesmoke;
+}
+.main-nosotros .objetivo .cuarto p {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-nosotros .equipo {
+  padding: 20px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+.main-nosotros .equipo div {
+  text-align: center;
+}
+.main-nosotros .equipo div h1 {
+  font-weight: 700;
+}
+.main-nosotros .equipo div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-nosotros .equipo .tarjetas-equipo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.main-nosotros .equipo .tarjetas-equipo .tarjeta-equipo {
+  align-items: center;
+  border: none;
+}
+.main-nosotros .equipo .tarjetas-equipo .tarjeta-equipo img {
+  width: 200px;
+  height: 200px;
+}
+.main-nosotros .equipo .tarjetas-equipo .tarjeta-equipo h5 {
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+.main-nosotros .equipo .tarjetas-equipo .tarjeta-equipo .socios {
+  font-size: 21px;
+}
+.main-nosotros .foco {
+  padding: 20px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+.main-nosotros .foco .contadores {
+  padding-top: 30px;
+  background-color: #4BE8CD;
+}
+.main-nosotros .foco div {
+  text-align: center;
+}
+.main-nosotros .foco div h1 {
+  font-weight: 700;
+}
+.main-nosotros .foco div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-nosotros .foco h4 {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px;
+  text-align: left;
+}
+.main-nosotros .foco p {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
