@@ -269,10 +269,6 @@ footer{
             font-weight: 700;
             font-size: 36px;
         }
-
-        
-
-
     }
 }
 
@@ -419,5 +415,53 @@ footer{
 
 
 
+}
+
+#banner-contacto{
+    background-image: url('../img/banner-contacto.png');
+    height: 200px;
+    display: flex;
+    align-items: center;
+    h1{
+        margin-bottom: 0px;
+
+
+    }
+}
+
+.main-contacto{
+    background-color: white;
+    margin: 50px 100px;
+    color: $color-principal-oscuro;
+    font-family: $letra-principal;
+    .panel-izquierdo{
+        padding-right: 50px;
+        h2{
+            font-weight: 700;
+            font-size: 36;
+        }    
+    }
+    .panel-derecho{
+        label{
+            margin-bottom: 0px;
+        }
+        input{
+            margin-bottom: 10px;
+        }
+        select{
+            margin-bottom: 10px;
+        }
+        textarea{
+            margin-bottom: 10px;
+        }
+        button{
+            border: none !important;
+            background-color: $color-principal!important;
+            color:$color-principal-oscuro!important;
+            font-weight: 400;
+            font-size: 16px;
+            width: 100px;
+        }
+    }
 }
 
