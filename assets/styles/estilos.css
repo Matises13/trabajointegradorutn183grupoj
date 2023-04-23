@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap");
+body {
+  background-color: #EEEBF2;
+}
+
+header .barra {
+  background-color: #161526;
+}
+header button {
+  color: #4BE8CD !important;
+  background-color: #35958A !important;
+}
+header a {
+  color: #4BE8CD !important;
+  font-family: "Carlito", sans-serif !important;
+  font-size: 21px !important;
+}
+header .banner {
+  background-image: url("/assets/img/banner-index.png");
+  height: 300px;
+  background-size: cover;
+  padding-top: 20px;
+}
+header .banner .texto-banner {
+  width: 500px;
+  padding-left: 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+header .banner .texto-banner h1 {
+  font-weight: 700;
+}
+header .banner .texto-banner p {
+  font-weight: 400;
+  font-size: 16px;
+}
+header .banner .texto-banner ul {
+  padding-left: 0px;
+}
+header .banner .texto-banner li {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 21px;
+}
+header .banner .texto-banner li > i {
+  color: #4BE8CD;
+}
+header .banner .texto-banner button {
+  border: none !important;
+  background-color: #4BE8CD !important;
+}
+header .banner .texto-banner button a {
+  color: #15494B !important;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+main {
+  background-color: white;
+}
+main .servicios {
+  padding: 50px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+main .servicios div {
+  text-align: center;
+}
+main .servicios div h1 {
+  font-weight: 700;
+}
+main .servicios div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+main .servicios .tarjetas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+main .servicios .tarjetas .tarjeta {
+  align-items: center;
+  border: none;
+}
+main .servicios .tarjetas .tarjeta img {
+  width: 75px;
+  height: 90px;
+}
+main .servicios .tarjetas .tarjeta h5 {
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+main .clientes {
+  padding: 20px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+main .clientes div {
+  text-align: center;
+}
+main .clientes div h1 {
+  font-weight: 700;
+}
+main .clientes div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+main .clientes h4 {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px;
+  text-align: left;
+}
+main .clientes p {
+  padding: 20px;
+}
+main .clientes .primero {
+  background-color: #012626;
+}
+main .clientes .primero h4 {
+  color: whitesmoke;
+}
+main .clientes .primero p {
+  color: whitesmoke;
+  text-align: left;
+}
+main .clientes .segundo {
+  background-color: #15494B;
+}
+main .clientes .segundo h4 {
+  color: whitesmoke;
+}
+main .clientes .segundo p {
+  color: whitesmoke;
+  text-align: left;
+}
+main .clientes .tercero {
+  background-color: #35958A;
+}
+main .clientes .tercero h4 {
+  color: whitesmoke;
+}
+main .clientes .tercero p {
+  color: whitesmoke;
+  text-align: left;
+}
+main .clientes .cuarto {
+  background-color: #48D9BE;
+}
+main .clientes .cuarto h4 {
+  color: whitesmoke;
+}
+main .clientes .cuarto p {
+  color: whitesmoke;
+  text-align: left;
+}
+
+footer div {
+  background-color: #161526;
+  padding: 20px;
+  color: #35958A;
+  font-family: "Carlito", sans-serif;
+  font-weight: 400;
+  font-size: 12;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer div img {
+  width: 75px;
+  height: 75px;
+}
+footer div li {
+  list-style: none;
+}
+footer div a {
+  text-decoration: none;
+  color: #4BE8CD;
+}
+footer div .item-telefono {
+  padding: 10px 10px 10px 37px;
+  color: #4BE8CD;
+}
+footer div .item-redes {
+  display: inline-block;
+  padding: 10px;
+}
+footer div .titulo-lista {
+  font-size: 21px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

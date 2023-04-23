@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap');
+
+$color-principal:#4BE8CD;
+$color-secundario:#48D9BE;
+$color-terciario:#35958A;
+$color-principal-oscuro:#15494B;
+$color-fondo:#161526;
+$color-auxiliar:#012626;
+
+$letra-principal: 'Carlito', sans-serif;
+// width: 400px;
+//Menus: 21px
+//texto: 16px 
+
+body{
+    background-color: #EEEBF2;
+}
+
+
+header{
+    .barra{
+        background-color: $color-fondo;
+    }
+    button{
+        color:$color-principal !important;
+        background-color: $color-terciario !important;
+    }
+
+    a{
+        color:$color-principal !important;
+        font-family: $letra-principal !important;
+        font-size: 21px !important;
+    }
+    .banner{
+        background-image: url('/assets/img/banner-index.png');
+        height: 300px;
+        background-size: cover;
+        padding-top: 20px;
+
+        .texto-banner{
+            width: 500px;
+            padding-left: 100px;
+            color:$color-principal-oscuro;
+            font-family: $letra-principal;
+
+            h1{    
+                font-weight: 700;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+            ul{
+                padding-left: 0px;
+            }
+            li{
+                display: inline-block;
+                font-weight: 400;
+                font-size: 21px;
+
+            }
+            li>i{
+                color: $color-principal;
+            }
+            button{
+                border: none !important;
+                background-color: $color-principal!important;
+         
+                a{
+                    color:$color-principal-oscuro!important;
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+main{
+    background-color: white;
+    .servicios{
+        padding: 50px 100px;
+        color:$color-principal-oscuro;
+        font-family: $letra-principal;  
+        div{
+            text-align: center;
+            h1{    
+                font-weight: 700;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        .tarjetas{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            .tarjeta{
+                align-items: center;
+                border: none;
+                img{
+                    width: 75px;
+                    height: 90px;
+                }
+                h5{
+                    color:$color-principal-oscuro;
+                    font-family: $letra-principal;  
+                    font-weight: 700;
+                    font-size: 32px;
+                }
+
+            }
+        }
+    }
+    .clientes{
+        padding: 20px 100px;
+        color:$color-principal-oscuro;
+        font-family: $letra-principal;  
+        div{
+            text-align: center;
+            h1{    
+                font-weight: 700;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        h4{
+            font-family: $letra-principal;  
+            font-weight: 700;
+            font-size: 36px;
+            padding: 20px;
+            text-align: left;
+        }
+        p{
+            padding: 20px;
+        }
+        .primero{
+            background-color: $color-auxiliar;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+            
+        }
+        .segundo{
+            background-color: $color-principal-oscuro;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+        }
+        .tercero{
+            background-color:$color-terciario ;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+        }
+        .cuarto{
+            background-color:$color-secundario ;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+        }
+
+    }
+}
+
+
+footer{
+
+    div{
+        background-color: $color-fondo;
+        padding: 20px;
+        color: $color-terciario;
+        font-family: $letra-principal;
+        font-weight: 400;
+        font-size: 12;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: $color-principal;
+        }
+        .item-telefono{
+            padding: 10px 10px 10px 37px;
+            color: $color-principal;
+        }
+        .item-redes{
+            display: inline-block;
+           
+            padding: 10px;
+        }
+        .titulo-lista{
+            font-size: 21px;
+        }
+
+            
+        
+    }
+
+}
