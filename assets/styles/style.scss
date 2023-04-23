@@ -465,3 +465,108 @@ footer{
     }
 }
 
+@media (min-width: 360px)  and (max-width: 800px ){ 
+
+    header{
+        .banner{
+            margin-bottom: 20px;
+            .texto-banner{
+                width:360px;
+                padding-left: 5px;
+                li{
+                    font-size: 16px;
+                }  
+            }
+        }
+        #baner-nosotros{
+            margin-bottom: 20px;
+            background-image: none;
+            .texto-banner{
+                width:360px;
+                padding-right: 5px;
+                li{
+                    font-size: 16px;
+                }  
+            }
+        }
+        #banner-contacto{
+            background-image: none;
+            background-color: #EEEBF2;
+        }
+    }
+
+    .main-index{
+        .clientes{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+
+    .main-nosotros{
+        .objetivo{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .equipo{
+            padding-left: 5px;
+            padding-right: 5px;
+            .tarjetas-equipo{
+                
+                .tarjeta-equipo{
+                    padding: 0px;
+
+                }
+            }
+        }
+        .foco{
+            padding: 20px 5px;
+        }
+
+    }
+
+    .main-contacto{
+        margin: 20px 10px;
+    }
+
+
+    footer{
+        .pie{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 0px;
+            padding-left: 0px;
+            img{
+                visibility: hidden;
+            }
+            div{
+                padding: 0px;
+                width: 300px;
+                height: 160px;
+                display: flex;
+                justify-content: center;
+                ul{
+                    width: 300px;
+                    height: 160px;
+                    padding: 0%;
+                    li{
+                        padding: 0%;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+
+
+
+
+
+}
+
+
+
+
+    
