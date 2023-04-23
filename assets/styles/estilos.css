@@ -16,7 +16,7 @@ header a {
   font-size: 21px !important;
 }
 header .banner {
-  background-image: url("/assets/img/banner-index.png");
+  background-image: url("../img/banner-index.png");
   height: 300px;
   background-size: cover;
   padding-top: 20px;
@@ -216,7 +216,7 @@ footer div .titulo-lista {
 }
 
 #baner-nosotros {
-  background-image: url("/assets/img/banner-nosotros.png");
+  background-image: url("../img/banner-nosotros.png");
   text-align: end;
   padding-top: 40px;
 }
